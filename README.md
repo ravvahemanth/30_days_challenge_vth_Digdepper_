@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0922-sort-array-by-parity-ii](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0922-sort-array-by-parity-ii) |
 | [0954-maximum-sum-circular-subarray](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0954-maximum-sum-circular-subarray) |
 | [1122-relative-sort-array](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/1122-relative-sort-array) |
+| [1480-running-sum-of-1d-array](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/1480-running-sum-of-1d-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2058-concatenation-of-array](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/2058-concatenation-of-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0724-find-pivot-index) |
+| [1480-running-sum-of-1d-array](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/1480-running-sum-of-1d-array) |
 ## Monotonic Queue
 |  |
 | ------- |
