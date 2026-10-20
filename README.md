@@ -326,4 +326,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0322-coin-change) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
