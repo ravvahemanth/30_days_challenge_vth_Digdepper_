@@ -1,21 +1,22 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int maxcurrent=nums[0];
-        int mincurrent=nums[0];
-        int maxGlobal=nums[0];
+        int globalmax = nums[0];
+        int currentmax = nums[0];
+        int currentmin = nums[0];
 
-        for(int i=1;i<nums.length;i++){
-            
-            int temp=maxcurrent;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] < 0) {
+                int temp = currentmax;
+                currentmax = currentmin;
+                currentmin = temp;
+            }
 
-            maxcurrent=Math.max(nums[i],Math.max(maxcurrent*nums[i],mincurrent*nums[i]));
-            mincurrent=Math.min(nums[i],Math.min(temp*nums[i],mincurrent*nums[i]));
+            currentmax = Math.max(nums[i], currentmax * nums[i]);
+            currentmin = Math.min(nums[i], currentmin * nums[i]);
 
-            maxGlobal=Math.max(maxGlobal,maxcurrent);
+            globalmax = Math.max(globalmax, currentmax);
         }
 
-        return maxGlobal;
-
-        
+        return globalmax;
     }
 }
