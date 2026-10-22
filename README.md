@@ -344,4 +344,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0229-majority-element-ii) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/hemanthravva/30_days_challenge_vth_Digdepper_/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
