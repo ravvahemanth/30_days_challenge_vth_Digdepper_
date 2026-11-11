@@ -1,31 +1,22 @@
-import java.util.*;
-
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        Arrays.sort(nums); // Step 1: Sort the array
-        
-        for (int i = 0; i < nums.length - 2; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) continue; // Skip duplicates for nums[i]
-            
-            int left = i + 1, right = nums.length - 1;
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-                
-                if (sum == 0) {
-                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
-                    left++;
-                    right--;
-                    
-                    while (left < right && nums[left] == nums[left - 1]) left++; // Skip duplicates for nums[left]
-                    while (left < right && nums[right] == nums[right + 1]) right--; // Skip duplicates for nums[right]
-                } else if (sum < 0) {
-                    left++; 
-                } else {
-                    right--; 
+    public List<List<Integer>> threeSum(int[] num) {
+        Set<List<Integer>> st = new HashSet<>();
+        int n=num.length;
+        for (int i = 0; i < n; i++) {
+            Set<Integer> hashset = new HashSet<>();
+            for (int j = i + 1; j < n; j++) {
+                int third = -(num[i] + num[j]);
+
+                if (hashset.contains(third)) {
+                    List<Integer> temp = Arrays.asList(num[i], num[j], third);
+                    Collections.sort(temp);
+                    st.add(temp);
                 }
+                hashset.add(num[j]);
             }
         }
-        return result;
+
+        return new ArrayList<>(st);
+    
     }
 }
